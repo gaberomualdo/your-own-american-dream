@@ -21,7 +21,7 @@ export default function Home() {
             backgroundColor: "rgba(0,0,0,0.5)",
             backdropFilter: "blur(6px)",
           }}
-          class="w-full min-h-screen flex flex-col justify-center items-center text-white"
+          className="w-full min-h-screen flex flex-col justify-center items-center text-white"
         >
           <img
             src="logo-main.png"
