@@ -416,11 +416,11 @@ export default function Home() {
                           </p>
                           <p className="text-green-500 font-bold">
                             Current Monthly Salary:
-                            <br />${commaNumber(profile.wage)}
+                            <br />${commaNumber(Math.round(profile.wage))}
                           </p>
                           <p className="text-red-500 font-bold">
                             Monthly Costs:
-                            <br />${commaNumber(profile.costs)}
+                            <br />${commaNumber(Math.round(profile.costs))}
                           </p>
                           <p>
                             Spouse:
