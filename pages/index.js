@@ -48,7 +48,7 @@ const newEventID = () => new Date().getTime().toString() + v4();
 
 const gameStartsAt = 1920;
 const gameEndsAt = 1960;
-const gameLength = 60 * 15 * 1000;
+const gameLength = 60 * 20 * 1000;
 const yearLength = gameLength / (gameEndsAt - gameStartsAt);
 
 export default function Home() {
